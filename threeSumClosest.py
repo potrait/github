@@ -58,7 +58,7 @@ class Solution(object):
 
         closestlist = []
         if threesumclosestlist:
-            '''#more useful results
+            '''
             min_norm = threesumclosestlist[0][-1]; closestlist=[threesumclosestlist[0][:-1]]
             for i in range(1, len(threesumclosestlist)):
                 if threesumclosestlist[i][-1] == min_norm: closestlist.append(threesumclosestlist[i][:-1])
