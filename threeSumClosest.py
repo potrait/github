@@ -63,6 +63,6 @@ class Solution(object):
             for i in range(1, len(threesumclosestlist)):
                 if threesumclosestlist[i][-1] == min_norm: closestlist.append(threesumclosestlist[i][:-1])
         return closestlist
-        '''#positin of triplequote may cause error. don't know why. perhaps they are strings, still part of code
+        '''
             return sum(threesumclosestlist[0][:-1])
-        #return 'null' #unnecessary
+        #return 'null' 
